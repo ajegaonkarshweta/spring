@@ -19,7 +19,7 @@ import com.example.temo.model.User;
 import com.example.temo.service.UserService;
 
 @RestController
-public class UserController {
+class UserController {
 	@Autowired
 	UserService userService;
 	
